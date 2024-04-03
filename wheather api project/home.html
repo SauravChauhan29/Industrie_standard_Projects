@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheater forcast</title>
+    <link rel="stylesheet" href="./HOME.CSS">
+    <link rel="stylesheet" href="./utility class.css">
+    <link rel="icon" type="image" href="./smog-solid.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="main_flex hei d-flex">
+            <div class="right hei">
+                <div class="right_flex">
+                    <div class="header_row">
+                        <div class="row d-flex jus-con-se flex-dir-r">
+                            <div class="logo d-flex">
+                                <img class="web_icon" src="./assets/website icon.png" alt="" srcset=""><H1>Wheather</H1>
+                            </div>
+                            <div class="search_bar ">
+                                <input type="text" placeholder="Country / City / Area City" id="searchme">
+                                <i class="fas icona fa-search alingment"
+                                    onclick="getWheather(inputforsearch.value)"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_container">
+                        <div class="con_align">
+                            <div class="brc_data">
+                                <h1 id="city_name">Search</h1>
+                                <p id="tempreture">0°C</p>
+                                <h3 id="skystatus">clear</h3>
+                                <p id="date">MON | 03 | 24</p>
+                            </div>
+                            <div class="brc_data_icon">
+                                <img src="./assets/clearsky.png" alt="" id="wheather_img" class="wid hei">
+
+                            </div>
+                            <!-- <div class="prev_weather_date">
+                                <div class="perday_show">
+                                    <div class="1box box">Lorem, ipsum.</div>
+                                    <div class="2box box">Lorem, ipsum.</div>
+                                    <div class="3box box">Lorem, ipsum.</div>
+                                    <div class="4box box">Lorem, ipsum.</div>
+                                    <div class="5box box">Lorem, ipsum.</div>
+                                    <div class="6box box">Lorem, ipsum.</div>
+                                    <div class="7box box">Lorem, ipsum.</div>
+                                </div>
+
+
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="left hei">
+                <div class="left_inside d-flex jus-con-se flex-dir-c ali-item">
+                    <div class="left_top wid  ">
+                        <div class="left_top_right  wid d-flex d-flex jus-con-sb" style=" padding: 40px;">
+ 
+                            <i class="fa-brands fa-wpressr let_space"> Pressure</i>
+                            <h3 class="sunrise " id="atm-pre"> 0 hPa</h3>
+                        </div>
+                        <!-- <div class="left_top_left"><i class="fa-solid fa-moon"></i>
+                            <h3 class="sunset"></h3>
+                        </div> -->
+                    </div>
+                    <div class="left_bottom wid">
+                        <div class="left_container  d-flex flex-dir-c jus-con-se wid">
+                            <div class="1bt_box btbox  d-flex ali-item jus-con-sb"><i
+                                    class="fa-solid fa-wind iconpar let_space let_space">&nbsp;Wind</i></i><h3 class="paratext" id="wind">0
+                                    km/hr</h3>
+                            </div>
+                            <div class="2bt_box btbox  d-flex ali-item jus-con-sb">
+                                <i class="fa-solid fa-ethernet let_space" title="humidity">&nbsp;Humidity</i><h3 id="humidity"> 0%</h3>
+                            </div>
+                            <div class="3bt_box btbox d-flex ali-item jus-con-sb"><i class="fa-solid fa-star-of-david let_space">&nbsp;Longitude
+                                </i><h3 id="Longitude">0.0</h3>
+                            </div>
+                            <div class="4bt_box btbox d-flex ali-item jus-con-sb"><i
+                                    class="fa-solid fa-star-of-david let_space">&nbsp;Latitude</i><h3 id="Latitude">0.0</h3>
+                            </div>
+                            <span style="text-align: center;">Api based project some results May Not Acurate</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./home.js"></script>
+</body>
+
+</html>

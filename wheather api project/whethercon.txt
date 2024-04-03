@@ -1,0 +1,20 @@
+
+Rainy
+
+Snowy
+
+Wind
+
+Cloudy
+
+Cold wave
+
+Heat wave
+
+Lightning
+
+Tornado
+
+Frost
+
+Humidity

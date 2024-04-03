@@ -1,0 +1,44 @@
+.wid {
+    width: 100%;
+}
+
+.hei {
+    height: 100%;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jus-con-ce {
+    justify-content: center;
+}
+.jus-con-sb {
+    justify-content: space-between;
+}
+.jus-con-se {
+    justify-content: space-evenly;
+}
+
+.ali-item {
+    align-items: center;
+}
+
+.flex-dir-c {
+    flex-direction: column;
+}
+
+.flex-dir-r {
+    flex-direction: row;
+}
+
+.mr-auto {
+    margin: 0 auto;
+}
+.let_space{
+    letter-spacing: 1px;
+}
